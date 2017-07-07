@@ -23,7 +23,7 @@ RUN chmod +x /root/upgrade.sh && \
     rm -rf /var/cache/apk/* && \
     rm -rf /tmp/* && \
     curl -L \
-    https://github.com/rancher/rancher-compose/releases/download/v0.8.6/rancher-compose-linux-amd64-v0.8.6.tar.gz \
+    https://releases.rancher.com/compose/v0.12.5/rancher-compose-linux-amd64-v0.12.5.tar.gz \
     -o rancher-compose.tar.gz && \
     tar zxvf rancher-compose.tar.gz --strip-components 2 && \
     rm -rf rancher-compose.tar.gz && \
